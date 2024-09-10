@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Playwrite+NO:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap');
+:root {
+    --main-bg-color:pink;
+    --font1:"Montagu Slab", serif;
+    --font2:"Kalam", cursive;
+}
+.max-width1{
+    max-width: 80vw;
+}
+.max-width2{
+    max-width: 60vw;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+
+.font2{
+    font-family: var(--font2);
+}
+
+
+.m-auto{
+    margin: auto;
+}
+.form-input{
+    padding: 0px 7px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 0px 7px;
+    font-family: var(--font2);
+}
+.btn{
+    font-size: 15px;
+    padding: 2px 3px;
+    border: 3px solid black;
+    border-radius: 7px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.btn:hover{
+    color: bisque;
+}
